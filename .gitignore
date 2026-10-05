@@ -24,3 +24,17 @@ outputs/
 
 # Dataset (nếu không muốn đưa lên Git)
 data/raw/
+
+# Environment / secrets
+.env
+*.key
+
+# Admin secrets
+data/admin/*.key
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Models / large generated files
+*.pkl
