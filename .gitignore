@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Environment
+.venv/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# AI Models
+*.pt
+*.pth
+
+# Outputs
+outputs/
+
+# VS Code
+.vscode/
+
+# Conda
+.conda/
+
+# Dataset (nếu không muốn đưa lên Git)
+data/raw/
